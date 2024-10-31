@@ -1,0 +1,1 @@
+#Aldığım python derslerini uyguluyorum. Farklı branchlerde farklı konuları işliyorum.
