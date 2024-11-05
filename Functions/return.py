@@ -24,7 +24,7 @@ def greeting():
         return "Good Morning"
     elif (hour()>=12 and hour()<18):
         return "Good Afternoon"
-    else:  
+    else:
         return "Good Night"
     
 print(greeting())
