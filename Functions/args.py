@@ -14,4 +14,4 @@ def toplam(*args):
         sonuc +=i
     return sonuc
 
-print(toplam(30,40,50,60,35))
+print(toplam(30,40,50,60,35)) 
