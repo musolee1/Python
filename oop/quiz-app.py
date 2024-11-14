@@ -69,7 +69,7 @@ class Quiz:
     def displayScore(self):
         puan = 100 /len(self.questions)
         toplamPuan = round(self.score * puan)
-        print(f"{len(self.questions)} sorudan {self.score} adet soruyu doğru cevapladınız.")
+        print(f"{len(self.questions)} sorudan {self.score} adet soruyu doğru cevapladınız. Seni çok seviyorum canım aşkımmmm!!")
         print("Score: ",toplamPuan)
     
     def displayProgress(self):
@@ -78,9 +78,10 @@ class Quiz:
 
         print(f"{questionNumber}/{totalQuestion}".center(20,'*'))
 
-q1 = Question("En iyi programlama dili hangisidir?",["python","c#","java","dart"],"python")
-q2 = Question("En popüler programlama dili hangisidir?",["c#","dart","python","java"],"python")
-q3 = Question("En çok kazandıran programlama dili hangisidir?",["dart","python","java","c#"],"python")
+q1 = Question("En iyi Programlama dili nedir?",["python","c#","java","dart"],"python")
+q2 = Question("İlk buluşmamızı hatırlıyor musun? O an ne hissettin?",["c#","dart","python","java"],"python")
+q3 = Question("Senin için romantik bir gece nasıl görünürdü?",["dart","python","java","c#"],"python")
+
 
 sorular = [q1,q2,q3]
 

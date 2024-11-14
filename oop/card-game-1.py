@@ -44,7 +44,7 @@ class Deste:
     types = ["karo","sinek","kupa","maça"]
     values = ["A","2","3","4","5","6","7","8","9","10","J","Q","K"]
     def __init__(self):
-        self.kartlar = [Card(type,value)for type in Deste.types for value in Deste.values]
+        self.kartlar = [Card(type,value) for type in Deste.types for value in Deste.values]
         # for type in types: Alternative
         #     for value in values:
         #         self.kartlar.append(Card(type,value))
